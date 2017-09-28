@@ -8,16 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		174AC86BB9CEB6F6C9DC81C4 /* Pods_YesReady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */; };
+		A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */; };
+		A217C27A1F7C83D900F1D3BD /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */; };
+		A217C27C1F7C846B00F1D3BD /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C27B1F7C846B00F1D3BD /* nanopb.framework */; };
+		A217C27E1F7C84B300F1D3BD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C27D1F7C84B300F1D3BD /* iAd.framework */; };
 		A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */; };
 		A2BC22441F79D7DB00CBDE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC22431F79D7DB00CBDE3B /* ViewController.swift */; };
 		A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22451F79D7DB00CBDE3B /* Main.storyboard */; };
 		A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */; };
 		A2BC224C1F79D7DB00CBDE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC224A1F79D7DB00CBDE3B /* LaunchScreen.storyboard */; };
-		A2BC22541F79D8C700CBDE3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22531F79D8C700CBDE3B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesReady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		A217C27B1F7C846B00F1D3BD /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework"; sourceTree = "<group>"; };
+		A217C27D1F7C84B300F1D3BD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A2BC223E1F79D7DB00CBDE3B /* YesReady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesReady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BC22431F79D7DB00CBDE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +32,6 @@
 		A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BC224B1F79D7DB00CBDE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2BC224D1F79D7DB00CBDE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BC22531F79D8C700CBDE3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AEE195BDE70D998F2A6A73D2 /* Pods-YesReady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A217C27E1F7C84B300F1D3BD /* iAd.framework in Frameworks */,
+				A217C27C1F7C846B00F1D3BD /* nanopb.framework in Frameworks */,
+				A217C27A1F7C83D900F1D3BD /* GoogleToolboxForMac.framework in Frameworks */,
 				174AC86BB9CEB6F6C9DC81C4 /* Pods_YesReady.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +54,9 @@
 		5BC4134BD46838368F833A2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A217C27D1F7C84B300F1D3BD /* iAd.framework */,
+				A217C27B1F7C846B00F1D3BD /* nanopb.framework */,
+				A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */,
 				71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */,
 			);
 			name = Frameworks;
@@ -53,6 +65,7 @@
 		A2BC22351F79D7DA00CBDE3B = {
 			isa = PBXGroup;
 			children = (
+				A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */,
 				A2BC22401F79D7DB00CBDE3B /* YesReady */,
 				A2BC223F1F79D7DB00CBDE3B /* Products */,
 				B32A31002C1BC15B6522BE43 /* Pods */,
@@ -72,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */,
-				A2BC22531F79D8C700CBDE3B /* GoogleService-Info.plist */,
 				A2BC22431F79D7DB00CBDE3B /* ViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
@@ -154,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BC224C1F79D7DB00CBDE3B /* LaunchScreen.storyboard in Resources */,
-				A2BC22541F79D8C700CBDE3B /* GoogleService-Info.plist in Resources */,
+				A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */,
 				A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */,
 				A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */,
 			);
@@ -380,6 +392,7 @@
 				A2BC22521F79D7DB00CBDE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
