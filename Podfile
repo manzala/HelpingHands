@@ -7,5 +7,5 @@ target 'YesReady' do
 
   # Pods for YesReady
 	pod 'Firebase/Core'	
-
+	pod 'Firebase/Database'
 end
