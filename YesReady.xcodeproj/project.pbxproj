@@ -16,7 +16,6 @@
 		A2BC22441F79D7DB00CBDE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC22431F79D7DB00CBDE3B /* ViewController.swift */; };
 		A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22451F79D7DB00CBDE3B /* Main.storyboard */; };
 		A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */; };
-		A2BC224C1F79D7DB00CBDE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC224A1F79D7DB00CBDE3B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +29,10 @@
 		A2BC22431F79D7DB00CBDE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2BC22461F79D7DB00CBDE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2BC224B1F79D7DB00CBDE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2BC224D1F79D7DB00CBDE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEE195BDE70D998F2A6A73D2 /* Pods-YesReady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.release.xcconfig"; sourceTree = "<group>"; };
+		ED2124ED1F833B3C0018348A /* Screen Shot 2017-10-02 at 11.27.10 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-10-02 at 11.27.10 PM.png"; path = "../../../../../Desktop/Screen Shot 2017-10-02 at 11.27.10 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +83,11 @@
 		A2BC22401F79D7DB00CBDE3B /* YesReady */ = {
 			isa = PBXGroup;
 			children = (
+				ED2124EA1F8337E70018348A /* image */,
 				A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */,
 				A2BC22431F79D7DB00CBDE3B /* ViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
-				A2BC224A1F79D7DB00CBDE3B /* LaunchScreen.storyboard */,
 				A2BC224D1F79D7DB00CBDE3B /* Info.plist */,
 			);
 			path = YesReady;
@@ -101,6 +100,14 @@
 				B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED2124EA1F8337E70018348A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				ED2124ED1F833B3C0018348A /* Screen Shot 2017-10-02 at 11.27.10 PM.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +140,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = HealthCare;
 				TargetAttributes = {
 					A2BC223D1F79D7DB00CBDE3B = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,7 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BC224C1F79D7DB00CBDE3B /* LaunchScreen.storyboard in Resources */,
 				A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */,
 				A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */,
 				A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */,
@@ -243,14 +250,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A2BC224A1F79D7DB00CBDE3B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2BC224B1F79D7DB00CBDE3B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -264,7 +263,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -272,7 +273,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -314,7 +319,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -322,7 +329,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -356,7 +367,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthCare.YesReady;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -369,7 +381,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthCare.YesReady;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
