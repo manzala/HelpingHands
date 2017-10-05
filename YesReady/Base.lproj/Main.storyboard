@@ -245,7 +245,7 @@
                                 <rect key="frame" x="135" y="316" width="202" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="login" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xn-1A-ViD">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="signupID" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xn-1A-ViD">
                                 <rect key="frame" x="120" y="509" width="131" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.64139974119999998" green="0.8013128638" blue="0.96364742520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -255,7 +255,6 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="Qp7-kP-30A"/>
                                     <action selector="signupButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="bfJ-cj-Ud2"/>
                                 </connections>
                             </button>
@@ -263,8 +262,8 @@
                         <color key="backgroundColor" red="0.64139974119999998" green="0.8013128638" blue="0.96364742520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="u9A-gH-uGL" id="a9F-0D-Q6m"/>
-                        <outlet property="passwordField" destination="ZRW-Wj-eVz" id="JL9-3D-6g2"/>
+                        <outlet property="emailField" destination="u9A-gH-uGL" id="EUK-Wb-Qmc"/>
+                        <outlet property="passwordField" destination="ZRW-Wj-eVz" id="3BN-1R-nZI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0FP-xq-Z54" sceneMemberID="firstResponder"/>
