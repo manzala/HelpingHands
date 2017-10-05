@@ -19,6 +19,7 @@
 		A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22451F79D7DB00CBDE3B /* Main.storyboard */; };
 		A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */; };
 		A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB88031F86CB8D00735F25 /* SignupViewController.swift */; };
+		A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BC224D1F79D7DB00CBDE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2CB88031F86CB8D00735F25 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		AEE195BDE70D998F2A6A73D2 /* Pods-YesReady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */,
 				A2CB88031F86CB8D00735F25 /* SignupViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
+				A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
 				A2B79BA31F85DE4A009A0FBA /* climb.jpg */,
 				A2BC224D1F79D7DB00CBDE3B /* Info.plist */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */,
+				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2BC22441F79D7DB00CBDE3B /* ViewController.swift in Sources */,
 				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,
