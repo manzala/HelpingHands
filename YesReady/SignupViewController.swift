@@ -11,11 +11,18 @@ import FirebaseAuth
 
 class SignupViewController: UIViewController {
 
+    
+   
+    
     @IBOutlet weak var passwordField: UITextField!
     
     @IBOutlet weak var emailField: UITextField!
     
-   
+    @IBAction func returnLoginButton(_ sender: Any) {
+       
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "loginID")
+        self.present(vc!, animated: true, completion: nil)
+    }
     
     @IBAction func signupButton(_ sender: Any) {
        
