@@ -18,6 +18,12 @@ class LoginViewController: UIViewController {
    
     @IBOutlet weak var emailField: UITextField!
     
+    
+    @IBAction func signupButton(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "signupID")
+        self.present(vc!, animated: true, completion: nil)
+    }
+    
     @IBAction func loginButton(_ sender: Any) {
         let emailValue = self.emailField.text;
         let passwordValue = self.passwordField.text;
