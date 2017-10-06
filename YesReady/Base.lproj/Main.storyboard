@@ -111,6 +111,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.64546984434127808" green="0.80130082368850708" blue="0.9636198878288269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="forgotPasswordButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLp-yQ-okl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="signup" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiM-SR-DkL">
                                 <rect key="frame" x="300" y="405" width="59" height="30"/>
@@ -181,7 +184,7 @@
         <!--ForgotPasswordViewController-->
         <scene sceneID="gbO-So-hkv">
             <objects>
-                <viewController storyboardIdentifier="signupID" id="WmT-Vg-ucg" userLabel="ForgotPasswordViewController" customClass="ForgotPasswordViewController" customModule="YesReady" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="forgotPasswordID" id="WmT-Vg-ucg" userLabel="ForgotPasswordViewController" customClass="ForgotPasswordViewController" customModule="YesReady" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hYV-Zl-QnZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Rxe-Gi-LDi"/>
@@ -212,13 +215,6 @@
                                 <rect key="frame" x="21" y="378" width="32" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="password" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZRW-Wj-eVz" userLabel="Pass Text Field">
-                                <rect key="frame" x="140" y="363" width="197" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="email" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u9A-gH-uGL" userLabel="email Text Field">
                                 <rect key="frame" x="140" y="382" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -240,7 +236,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="signupButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="bfJ-cj-Ud2"/>
+                                    <action selector="submitButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="JMe-vP-8hZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IB-Cc-6Cv">
@@ -250,15 +246,14 @@
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Return Login"/>
                                 <connections>
-                                    <action selector="returnLoginButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="J3g-av-bZX"/>
+                                    <action selector="returnLoginButton:" destination="WmT-Vg-ucg" eventType="touchUpInside" id="ePN-zf-SON"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.64139974119999998" green="0.8013128638" blue="0.96364742520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="u9A-gH-uGL" id="EUK-Wb-Qmc"/>
-                        <outlet property="passwordField" destination="ZRW-Wj-eVz" id="3BN-1R-nZI"/>
+                        <outlet property="emailField" destination="u9A-gH-uGL" id="TbV-w7-NYT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0FP-xq-Z54" sceneMemberID="firstResponder"/>
