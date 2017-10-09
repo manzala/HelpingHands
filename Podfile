@@ -9,4 +9,5 @@ target 'YesReady' do
 	pod 'Firebase/Core'	
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
+	pod 'IQDropDownTextField'
 end

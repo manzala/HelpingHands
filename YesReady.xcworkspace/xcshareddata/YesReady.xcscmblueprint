@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC87BB377B0012DE32EBAD32F54C17626D2DD58D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC87BB377B0012DE32EBAD32F54C17626D2DD58D" : 9223372036854775807,
+    "8A0C112728385E0CD21EA3FFDD5B19771E9842FC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1B63AE0C-557C-4359-AA2A-51C2FB585B7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC87BB377B0012DE32EBAD32F54C17626D2DD58D" : "YesReady\/",
+    "8A0C112728385E0CD21EA3FFDD5B19771E9842FC" : "LMDropdownView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YesReady",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YesReady.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lminhtm\/LMDropdownView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A0C112728385E0CD21EA3FFDD5B19771E9842FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/manzala\/YesReady.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC87BB377B0012DE32EBAD32F54C17626D2DD58D"
+    }
+  ]
+}
