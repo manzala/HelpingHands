@@ -40,9 +40,8 @@ class ProfileViewController: UIViewController {
         
         genderField.isOptionalDropDown = true
         genderField.itemList = ["Male", "Female"]
-        ageField.itemList = ["16","17","19","20","21","22","23","24","25","26","27","28","29","30"]
-        ageField.isOptionalDropDown = true
-
+       
+        
     }
 
     override func didReceiveMemoryWarning() {
