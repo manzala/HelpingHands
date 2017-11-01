@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FDBC7C71FAA841E00172F30 /* SpecialRequest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FDBC7C61FAA841E00172F30 /* SpecialRequest.jpg */; };
+		0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */; };
+		0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */; };
+		0FE27A9A1FA8078800CBBB28 /* Groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A961FA8078800CBBB28 /* Groceries.png */; };
+		0FE27A9B1FA8078800CBBB28 /* Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A971FA8078800CBBB28 /* Hospital.png */; };
+		0FE27A9C1FA8078800CBBB28 /* Laundry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A981FA8078800CBBB28 /* Laundry.jpg */; };
+		0FE27A9D1FA8078800CBBB28 /* pet_care.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A991FA8078800CBBB28 /* pet_care.jpeg */; };
 		174AC86BB9CEB6F6C9DC81C4 /* Pods_YesReady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */; };
 		A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */; };
 		A217C27A1F7C83D900F1D3BD /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */; };
@@ -23,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FDBC7C61FAA841E00172F30 /* SpecialRequest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpecialRequest.jpg; sourceTree = "<group>"; };
+		0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0FE27A961FA8078800CBBB28 /* Groceries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Groceries.png; sourceTree = "<group>"; };
+		0FE27A971FA8078800CBBB28 /* Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospital.png; sourceTree = "<group>"; };
+		0FE27A981FA8078800CBBB28 /* Laundry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laundry.jpg; sourceTree = "<group>"; };
+		0FE27A991FA8078800CBBB28 /* pet_care.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pet_care.jpeg; sourceTree = "<group>"; };
 		71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesReady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
@@ -59,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE27A951FA8078800CBBB28 /* Menu_pic */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A961FA8078800CBBB28 /* Groceries.png */,
+				0FE27A971FA8078800CBBB28 /* Hospital.png */,
+				0FE27A981FA8078800CBBB28 /* Laundry.jpg */,
+				0FDBC7C61FAA841E00172F30 /* SpecialRequest.jpg */,
+				0FE27A991FA8078800CBBB28 /* pet_care.jpeg */,
+			);
+			path = Menu_pic;
+			sourceTree = SOURCE_ROOT;
+		};
 		5BC4134BD46838368F833A2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,13 +121,16 @@
 			children = (
 				A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */,
 				A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */,
+				0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */,
 				A2CB88031F86CB8D00735F25 /* SignupViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
+				0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */,
 				A24B867F1F899C120010FE32 /* ProfileViewController.swift */,
 				A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
 				A2BC224D1F79D7DB00CBDE3B /* Info.plist */,
 				A246E7501F8AE0E8005A21C0 /* YesReady-Bridging-Header.h */,
+				0FE27A951FA8078800CBBB28 /* Menu_pic */,
 			);
 			path = YesReady;
 			sourceTree = "<group>";
@@ -191,8 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */,
+				0FE27A9C1FA8078800CBBB28 /* Laundry.jpg in Resources */,
+				0FE27A9D1FA8078800CBBB28 /* pet_care.jpeg in Resources */,
+				0FDBC7C71FAA841E00172F30 /* SpecialRequest.jpg in Resources */,
 				A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */,
 				A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */,
+				0FE27A9B1FA8078800CBBB28 /* Hospital.png in Resources */,
+				0FE27A9A1FA8078800CBBB28 /* Groceries.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +287,8 @@
 			files = (
 				A24B86801F899C120010FE32 /* ProfileViewController.swift in Sources */,
 				A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */,
+				0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */,
+				0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */,
 				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,

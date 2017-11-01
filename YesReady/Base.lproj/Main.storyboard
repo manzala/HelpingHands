@@ -383,6 +383,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JrS-qZ-uYk"/>
+                                    <segue destination="58g-Pq-dTa" kind="show" id="X5q-e6-iaY"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="help" highlightedImage="photo" translatesAutoresizingMaskIntoConstraints="NO" id="Pgo-S1-Aj9">
@@ -445,6 +446,112 @@
             </objects>
             <point key="canvasLocation" x="-639.20000000000005" y="706.59670164917543"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="yja-71-0vx">
+            <objects>
+                <viewController id="58g-Pq-dTa" customClass="MenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sgr-hV-sH3"/>
+                        <viewControllerLayoutGuide type="bottom" id="r88-iD-0Yj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tNX-CQ-hd2" customClass="MenuViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Groceries.png" translatesAutoresizingMaskIntoConstraints="NO" id="uw1-oW-VZO">
+                                <rect key="frame" x="30" y="74" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3256429375173438" green="0.96318954229354858" blue="0.55730610241189382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hospital.png" translatesAutoresizingMaskIntoConstraints="NO" id="c4Y-de-cxb">
+                                <rect key="frame" x="209" y="74" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34486826629233241" green="0.75152021646499634" blue="0.5778048595294113" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HC2-7H-pap">
+                                <rect key="frame" x="209" y="74" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Laundry.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6fk-pA-Uj0">
+                                <rect key="frame" x="30" y="240" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34468538105340962" green="0.75152021646499634" blue="0.59521632256625134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDw-qe-36V">
+                                <rect key="frame" x="30" y="240" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet_care.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hsE-ps-izr">
+                                <rect key="frame" x="209" y="240" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35003945610167819" green="0.75152021646499634" blue="0.58582371837580993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lJ-OU-k6S">
+                                <rect key="frame" x="209" y="240" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgM-yC-aFW">
+                                <rect key="frame" x="45" y="583" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Post a task">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av7-L3-ZhZ">
+                                <rect key="frame" x="224" y="583" width="114" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Find a task">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfP-d9-FUH">
+                                <rect key="frame" x="115" y="409" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEW-Nc-wgR">
+                                <rect key="frame" x="30" y="74" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="odp-BX-OoR" kind="show" id="9Ou-IO-dF6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpecialRequest.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4ck-rg-7Gp">
+                                <rect key="frame" x="115" y="409" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47448408603668213" green="0.96925228834152222" blue="0.8457215428352356" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56935518980026245" green="0.81461066007614136" blue="0.98851770162582397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.56935518980026245" green="0.81461066007614136" blue="0.98851770162582397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tvv-eI-gA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="706.59670164917543"/>
+        </scene>
+        <!--Grocery View Controller-->
+        <scene sceneID="eXF-AX-ldG">
+            <objects>
+                <viewController id="odp-BX-OoR" customClass="GroceryViewController" customModule="YesReady" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ncb-uj-Yew"/>
+                        <viewControllerLayoutGuide type="bottom" id="sbj-RN-uAO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lpz-Au-ZGd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.56935518979999999" green="0.81461066010000005" blue="0.98851770159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.56935518980026245" green="0.81461066007614136" blue="0.98851770162582397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ad4-7K-AXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="707"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="31X-40-Xod">
             <objects>
@@ -474,10 +581,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Groceries.png" width="440" height="230"/>
+        <image name="Hospital.png" width="650" height="541"/>
+        <image name="Laundry.jpg" width="400" height="400"/>
+        <image name="SpecialRequest.jpg" width="270" height="161"/>
         <image name="email" width="128" height="128"/>
         <image name="help" width="308" height="308"/>
         <image name="line" width="500" height="200"/>
         <image name="lock" width="128" height="128"/>
+        <image name="pet_care.jpeg" width="207" height="243"/>
         <image name="photo" width="640" height="640"/>
         <image name="sky" width="1280" height="800"/>
         <image name="white" width="1920" height="1080"/>
