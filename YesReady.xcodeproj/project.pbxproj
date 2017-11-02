@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */; };
 		0FDBC7C71FAA841E00172F30 /* SpecialRequest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FDBC7C61FAA841E00172F30 /* SpecialRequest.jpg */; };
 		0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */; };
 		0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */; };
+		0FDBC7CF1FAA8B0100172F30 /* PostTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */; };
 		0FE27A9A1FA8078800CBBB28 /* Groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A961FA8078800CBBB28 /* Groceries.png */; };
 		0FE27A9B1FA8078800CBBB28 /* Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A971FA8078800CBBB28 /* Hospital.png */; };
 		0FE27A9C1FA8078800CBBB28 /* Laundry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A981FA8078800CBBB28 /* Laundry.jpg */; };
@@ -30,9 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTaskViewController.swift; sourceTree = "<group>"; };
 		0FDBC7C61FAA841E00172F30 /* SpecialRequest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpecialRequest.jpg; sourceTree = "<group>"; };
 		0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
 		0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTaskViewController.swift; sourceTree = "<group>"; };
 		0FE27A961FA8078800CBBB28 /* Groceries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Groceries.png; sourceTree = "<group>"; };
 		0FE27A971FA8078800CBBB28 /* Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospital.png; sourceTree = "<group>"; };
 		0FE27A981FA8078800CBBB28 /* Laundry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laundry.jpg; sourceTree = "<group>"; };
@@ -123,8 +127,10 @@
 				A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */,
 				0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */,
 				A2CB88031F86CB8D00735F25 /* SignupViewController.swift */,
+				0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
 				0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */,
+				0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */,
 				A24B867F1F899C120010FE32 /* ProfileViewController.swift */,
 				A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
@@ -289,9 +295,11 @@
 				A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */,
 				0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */,
 				0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */,
+				0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */,
 				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,
+				0FDBC7CF1FAA8B0100172F30 /* PostTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
