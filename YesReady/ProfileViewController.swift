@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ProfileViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class ProfileViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate,UITextFieldDelegate {
 
     @IBOutlet weak var help: UIImageView!
     @IBAction func ChangePic(_ sender: Any) {
@@ -64,8 +64,18 @@ class ProfileViewController: UIViewController, UINavigationControllerDelegate, U
         
         help.layer.cornerRadius = help.frame.size.width/2
         help.clipsToBounds = true
+        self.phoneField.delegate = self
        
         
+    }
+    //Hide keyboard when user touches outside keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    //Presses return key, hide the keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        phoneField.resignFirstResponder()
+        return(true)
     }
 
     override func didReceiveMemoryWarning() {

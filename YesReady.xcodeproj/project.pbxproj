@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */; };
+		0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */; };
+		0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */; };
+		0FDBC7CF1FAA8B0100172F30 /* PostTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */; };
 		174AC86BB9CEB6F6C9DC81C4 /* Pods_YesReady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */; };
 		A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */; };
 		A217C27A1F7C83D900F1D3BD /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTaskViewController.swift; sourceTree = "<group>"; };
+		0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTaskViewController.swift; sourceTree = "<group>"; };
 		71A47FDB54F3174F0C8BAA5F /* Pods_YesReady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesReady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A217C2771F7C7FC300F1D3BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
@@ -95,8 +103,12 @@
 			children = (
 				A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */,
 				A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */,
+				0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */,
 				A2CB88031F86CB8D00735F25 /* SignupViewController.swift */,
+				0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
+				0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */,
+				0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */,
 				A24B867F1F899C120010FE32 /* ProfileViewController.swift */,
 				A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
@@ -253,9 +265,13 @@
 			files = (
 				A24B86801F899C120010FE32 /* ProfileViewController.swift in Sources */,
 				A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */,
+				0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */,
+				0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */,
+				0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */,
 				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,
+				0FDBC7CF1FAA8B0100172F30 /* PostTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
