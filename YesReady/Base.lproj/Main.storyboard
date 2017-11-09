@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -113,6 +113,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RUS-5c-bCO"/>
+                                    <segue destination="fwt-fw-1Ss" kind="show" id="3e9-7V-gWT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,12 +124,11 @@
                     <connections>
                         <outlet property="emailField" destination="UN5-NC-iSZ" id="D4m-Jo-XxX"/>
                         <outlet property="passwordField" destination="xpL-ft-Yla" id="8ew-EK-PiJ"/>
-                        <segue destination="58g-Pq-dTa" kind="show" id="e5Q-qb-cLY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2714.4000000000001" y="111.99400299850076"/>
+            <point key="canvasLocation" x="-863" y="112"/>
         </scene>
         <!--ForgotPasswordViewController-->
         <scene sceneID="gbO-So-hkv">
@@ -153,9 +153,6 @@
                                 <state key="normal" title="&lt; Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="DXT-5v-V4X"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" highlightedImage="white" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHd-sZ-neQ">
                                 <rect key="frame" x="0.0" y="269" width="375" height="296"/>
@@ -221,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0FP-xq-Z54" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2714" y="1266"/>
+            <point key="canvasLocation" x="-863" y="1073"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UGK-6I-PL8">
@@ -262,13 +259,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.57122719290000001" green="0.81705588100000004" blue="0.98796778919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <segue destination="Z5a-AV-vlL" kind="show" id="xhA-gp-wfd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W2A-yU-BJ4" userLabel="Service Hisory" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2886" y="1266"/>
+            <point key="canvasLocation" x="2068" y="1012"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ntc-cj-GOA">
@@ -304,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5OH-82-AhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="2901"/>
+            <point key="canvasLocation" x="863" y="1684"/>
         </scene>
         <!--SignupViewController-->
         <scene sceneID="oJu-rJ-HUr">
@@ -383,6 +377,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signupButton:" destination="8Lj-i8-ukg" eventType="touchUpInside" id="eyy-Fv-zgR"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="f4q-8O-sm2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjc-7k-09M">
@@ -406,12 +401,11 @@
                     <connections>
                         <outlet property="emailField" destination="tti-Ir-9jJ" id="9pu-gX-hEW"/>
                         <outlet property="passwordField" destination="6Zg-PA-lnc" id="jJI-9C-vzc"/>
-                        <segue destination="fwt-fw-1Ss" kind="show" id="uum-w5-s2t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AN4-yX-418" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1268" y="-835.23238380809596"/>
+            <point key="canvasLocation" x="-350" y="-835"/>
         </scene>
         <!--ProfileViewController-->
         <scene sceneID="Rcu-W0-bgy">
@@ -425,14 +419,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdp-zT-TIZ">
-                                <rect key="frame" x="10" y="10" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" highlightedImage="white" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1uE-PE-gjx">
                                 <rect key="frame" x="0.0" y="305" width="375" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -479,7 +465,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JrS-qZ-uYk"/>
-                                    <segue destination="Yjp-H7-2vG" kind="show" id="BBC-b6-VN3"/>
+                                    <segue destination="Yjp-H7-2vG" kind="show" id="ruj-00-EEa"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="help" highlightedImage="photo" translatesAutoresizingMaskIntoConstraints="NO" id="Pgo-S1-Aj9">
@@ -645,17 +631,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="cc-number"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8F-0T-ZL3">
-                                <rect key="frame" x="16" y="19" width="77" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Profile">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fwt-fw-1Ss" kind="show" id="LHR-64-Job"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-8l-jZJ">
                                 <rect key="frame" x="282" y="19" width="77" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -664,7 +639,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="58g-Pq-dTa" kind="show" id="c7L-ga-CQf"/>
+                                    <segue destination="58g-Pq-dTa" kind="show" id="NZA-NP-9dj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Next" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCd-Ke-VmO" userLabel="back">
@@ -678,6 +653,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Vz-cX-J1w"/>
+                                    <segue destination="58g-Pq-dTa" kind="show" id="lv2-UI-DTs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" highlightedImage="white" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ya2-ef-aQG">
@@ -693,7 +669,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="urg-vc-Jq7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2887" y="-835"/>
+            <point key="canvasLocation" x="1735" y="-835"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="yja-71-0vx">
@@ -714,6 +690,9 @@
                                 <state key="normal" title="Post a task">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="tF6-L4-sDE" kind="show" id="N5n-t5-beu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="av7-L3-ZhZ">
                                 <rect key="frame" x="224" y="583" width="114" height="32"/>
@@ -722,6 +701,9 @@
                                 <state key="normal" title="Find a task">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M6r-Lf-U04" kind="show" id="ocP-Wl-7tF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRE-do-GeG">
                                 <rect key="frame" x="23" y="63" width="159" height="145"/>
@@ -755,9 +737,6 @@
                                 <state key="normal" title="Profile">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="fwt-fw-1Ss" kind="show" id="MmT-8N-tIe"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.56935518980026245" green="0.81461066007614136" blue="0.98851770162582397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -765,15 +744,10 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <segue destination="tF6-L4-sDE" kind="show" id="4UU-iA-5Ic"/>
-                        <segue destination="Yjp-H7-2vG" kind="show" id="JFz-GK-Gha"/>
-                        <segue destination="M6r-Lf-U04" kind="show" id="eLC-rM-md5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tvv-eI-gA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="112"/>
+            <point key="canvasLocation" x="697" y="-55"/>
         </scene>
         <!--Post Task View Controller-->
         <scene sceneID="d5Z-Qz-wQ5">
@@ -874,6 +848,9 @@
                                 <state key="normal" title="&lt; Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="58g-Pq-dTa" kind="show" id="GwP-L6-M2Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.56935518980026245" green="0.81461066007614136" blue="0.98851770162582397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -881,12 +858,11 @@
                     <connections>
                         <outlet property="label" destination="Ayt-OY-bm9" id="5X6-hM-Wrb"/>
                         <outlet property="pickerView" destination="mOp-Xe-Mzm" id="14a-y7-b9c"/>
-                        <segue destination="H20-yc-NRa" kind="showDetail" id="QDs-0w-dez"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fu7-c6-MUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2886" y="112"/>
+            <point key="canvasLocation" x="1710" y="-55"/>
         </scene>
         <!--Find Task View Controller-->
         <scene sceneID="BRp-fA-6ho">
@@ -959,6 +935,9 @@
                                 <state key="normal" title="&lt; Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="58g-Pq-dTa" kind="show" id="Q5W-jc-Ww0"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="help" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Gx-rPC">
                                 <rect key="frame" x="307" y="2" width="52" height="49"/>
@@ -970,12 +949,11 @@
                     <connections>
                         <outlet property="label" destination="kqn-Yk-NAL" id="Inu-UW-VOH"/>
                         <outlet property="pickerView" destination="AXg-Rv-p6G" id="wKD-Zr-QvB"/>
-                        <segue destination="Z5a-AV-vlL" kind="show" id="Set-g7-9yB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tdx-y4-zLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="1267"/>
+            <point key="canvasLocation" x="714" y="739"/>
         </scene>
     </scenes>
     <resources>
@@ -996,10 +974,7 @@
         <image name="white" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="c7L-ga-CQf"/>
-        <segue reference="BBC-b6-VN3"/>
-        <segue reference="LHR-64-Job"/>
-        <segue reference="xhA-gp-wfd"/>
+        <segue reference="lv2-UI-DTs"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
