@@ -8,8 +8,34 @@
 
 import UIKit
 
+protocol PostTaskViewControllerDelegate{
+    
+    func addNew(todo:PostGrocery)
+    
+}
+
 class PostTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    var delegate: PostTaskViewControllerDelegate!
+    
+    @IBOutlet var tittle: UITextField!
+    
+    @IBOutlet var detail: UITextView!
+    
+    @IBOutlet var price: UITextField!
+    
+    
+    @IBAction func saveButtonTapped(_ sender: UIBarButtonItem) {
+       
+        let todo = PostGrocery(tittle:tittle.text!, price:price.text!)
+        delegate.addNew(todo: todo)
+        //go back to previous view once button clicked
+        navigationController?.popViewController(animated: true)
+    }
+   
+    
+    
+    
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var label: UILabel!
     
@@ -45,14 +71,6 @@ class PostTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

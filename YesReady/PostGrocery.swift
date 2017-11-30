@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class PostGrocery{
+    
+    var tittle = ""
+    var price = ""
+    var completed = false
+
+    init(tittle: String, price: String){
+        self.tittle = tittle
+        self.price = price
+    }
+
+
+
+}

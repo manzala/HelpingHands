@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */; };
+		0FD2A0D81FC390350001DEB3 /* PostGrocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2A0D71FC390350001DEB3 /* PostGrocery.swift */; };
 		0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */; };
 		0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */; };
 		0FDBC7CF1FAA8B0100172F30 /* PostTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0FC305AD1FAA9A6600A76F22 /* FindTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTaskViewController.swift; sourceTree = "<group>"; };
+		0FD2A0D71FC390350001DEB3 /* PostGrocery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGrocery.swift; sourceTree = "<group>"; };
 		0FDBC7CA1FAA87F900172F30 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
 		0FDBC7CC1FAA88B000172F30 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0FDBC7CE1FAA8B0100172F30 /* PostTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTaskViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
 				A2BC224D1F79D7DB00CBDE3B /* Info.plist */,
 				A246E7501F8AE0E8005A21C0 /* YesReady-Bridging-Header.h */,
+				0FD2A0D71FC390350001DEB3 /* PostGrocery.swift */,
 			);
 			path = YesReady;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				0FDBC7CB1FAA87F900172F30 /* GroceryViewController.swift in Sources */,
 				0FDBC7CD1FAA88B000172F30 /* MenuViewController.swift in Sources */,
 				0FC305AE1FAA9A6600A76F22 /* FindTaskViewController.swift in Sources */,
+				0FD2A0D81FC390350001DEB3 /* PostGrocery.swift in Sources */,
 				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,
